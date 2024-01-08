@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ensemble de composants</title>
+    <link rel="stylesheet" href="menu.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+  </head>
+  <body>
+
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn"> <i class="fas fa-bars"></i> </label>
+      <img src="./assets/logo.svg" alt="" class="logo" />
+      <buton class="user-menu">
+        <img class="user-icon" src="assets/profile.svg" />
+        <img class="user-icon" src="assets/recompense.svg" />
+        <img class="user-icon" src="assets/theme.svg" />
+      </buton>
+      <ul class="ul-list">
+        <li class="menu-item">Faire&nbsp;les&nbsp;courses</li>
+        <li class="menu-item">Passer&nbsp;en&nbsp;cuisine</li>
+      </ul>
+    </nav>
+
+    <!-- Création de ma banière -->
+
+    <section class="banner">
+      <div class="textehero">
+        <h1>Découvrez une nouvelle ère de votre cuisine</h1>
+        <p>
+          Libérez du temps pour ce qui compte vraiment : votre famille et vos
+          moments précieux. Plongez dans une aventure culinaire inédite dès
+          aujourd'hui.
+        </p>
+        <button class="boutonvert">Commencez votre aventure culinaire</button>
+      </div>
+    </section>
+
+    <section class="partenaire">
+      <img class="partenaireimage" src="assets/partenaire.png" alt="" />
+    </section>
+
+    <section class="articles">
+      <ul>
+        <li class="decouvrirjow1">
+          <img
+            src="assets/Section images et texte/Mask group.png"
+            alt=""
+            class="imagesarticles"
+          />
+          <div class="textearticle">
+            <h3>Découvrez Jow : Votre Compagnon de Courses Intelligent</h3>
+            <p>
+              Jow réinvente la manière dont vous faites vos courses et cuisinez
+              pour votre famille. Nous comprenons les défis quotidiens des
+              familles occupées comme la vôtre. C'est pourquoi nous avons créé
+              une plateforme intelligente qui simplifie votre expérience de
+              courses. De la suggestion d'ingrédients pour vos plats préférés à
+              une livraison à domicile efficace, Jow est là pour vous offrir une
+              solution complète.
+            </p>
+            <button class="boutonrouge">Découvrir Jow</button>
+          </div>
+        </li>
+
+        <li class="decouvrirjow2">
+          <video class="video" controls autoplay src="assets/fond video.mp4"></video>
+          <div class="textearticle">
+            <h3>Comment ça marche ?</h3>
+            <ul>
+              <li>
+                Partagez-nous vos préférences : votre foyer, vos choix
+                alimentaires, et vos équipements de cuisine.
+              </li>
+              <li>Jow vous propose un menu sur mesure qui vous correspond.</li>
+              <li>
+                Les ingrédients pour vos recettes se glissent automatiquement
+                dans votre panier.
+              </li>
+              <li>
+                Besoin de boissons, de produits d'entretien, ou d'articles du
+                quotidien ? Ajoutez-les également.
+              </li>
+              <li>
+                Recevez vos courses à domicile ou optez pour un retrait en drive
+                : simplifiez vos courses et cuisinez sans tracas
+              </li>
+            </ul>
+
+            <button class="boutonrouge">Découvrir Jow</button>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="margin">
+      <h1 class="aligncenter aligncenter-h1">Votre sélection gourmande</h1>
+      <p class="aligncenter">
+        Plongez-vous dans cette sélection gourmande, conçue spécialement pour
+        vous, et savourez une expérience culinaire authentique et personnalisée.
+      </p>
+      <div class="mesplats">
+        <div class="plat">
+          <img src="assets/plat1.png" alt="" class="platv" />
+          <h4>
+            Apéritif de champignons frits, d'oignons, de tomates et d'œufs
+          </h4>
+          <div class="descriptionplat">
+            <p>
+              <span>Temps de cuissons : 15 min </span>Quantité : 2
+              personnes
+            </p>
+            <p class="prix">Prix de la course : 16 euros</p>
+          </div>
+          <div class="bouton">
+            <button class="boutonvert">Personaliser la recette</button>
+            <button class="boutonrouge">Ajouter au panier</button>
+          </div>
+        </div>
+        <div class="plat">
+          <img src="assets/plat2.png" alt="" class="platv" />
+          <h4>
+            Steak de thon grillé avec légumes, tomates, roquette et salade
+          </h4>
+          <div class="descriptionplat">
+            <p>
+                <span>Temps de cuissons : 15 min</span>
+Quantité : 2
+              personnes
+            </p>
+            <p class="prix">Prix de la course : 16 euros</p>
+          </div>
+          <div class="bouton">
+            <button class="boutonvert">Personaliser la recette</button>
+            <button class="boutonrouge">Ajouter au panier</button>
+          </div>
+        </div>
+        <div class="plat">
+          <img src="assets/plat3.png" alt="" class="platv" />
+          <h4>Filet de poulet avec vue sur la salade aux tomates</h4>
+          <div class="descriptionplat">
+            <p>
+              <span>Temps de cuissons : 15 min </span>Quantité : 2
+              personnes
+            </p>
+            <p class="prix">Prix de la course : 16 euros</p>
+          </div>
+          <div class="bouton">
+            <button class="boutonvert">Personaliser la recette</button>
+            <button class="boutonrouge">Ajouter au panier</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="avis">
+      <div class="avisindiv">
+        <img src="assets/avis.png" alt="" />
+        <img src="assets/etoiles.png" alt="" />
+        <h3>Sophie, mère de famille</h3>
+        <p>
+          Jow a transformé ma manière de gérer les repas pour ma famille. En
+          jonglant avec un emploi du temps chargé et des enfants actifs, trouver
+          le temps pour faire les courses était un défi constant. Jow est devenu
+          mon allié précieux.
+        </p>
+      </div>
+    </section>
+
+    <section class="blog">
+      <form class="blogcontenu">
+        <input
+          placeholder="  Entrer votre adresse mail"
+          class="bloginput"
+          type="text"
+        />
+        <button class="boutonrougeblog">Accéder au blog</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="footercontenu">
+        <ul>
+          <li><img src="./assets/logo.svg" alt=""></li>
+          <li class="icons">
+            <i><img src="./assets/facebookk.svg" alt="" srcset="" /></i>
+            <i><img src="./assets/pinterest.svg" alt="" srcset="" /></i>
+            <i><img src="./assets/instagram.svg" alt="" srcset="" /></i>
+            <i><img src="./assets/tiktok.svg" alt="" srcset="" /></i>
+            <i><img src="./assets/Youtube.svg" alt="" srcset="" /></i>
+            <i><img src="./assets/carte.svg" alt="" srcset="" /></i>
+          </li>
+          <li class="appstore"><img src="./assets/badge appstore.svg" alt="" /></li>
+          <li class="googleplay">
+            <img src="./assets/badge playstore.svg" alt="" />
+          </li>
+        </ul>
+        <ul>
+          <li><span>A props</span></li>
+          <li>Noter mission</li>
+          <li>Blog</li>
+          <li>Livers</li>
+          <li>Besion d'aide</li>
+          <li>Plan de Site</li>
+        </ul>
+        <ul>
+          <li><span>L'arrière-cuisine Jow</span></li>
+          <li>Parrainage</li>
+          <li>Press</li>
+          <li>Affiliation & Influence</li>
+          <li>Programme d'affiliation</li>
+          <li>Partenariats Marques</li>
+          <li>Recrutement</li>
+          <li>étudiants / Diplomes</li>
+        </ul>
+        <ul>
+          <li><span>Information légales</span></li>
+          <li>Condition Générales d'Utilisation</li>
+          <li>Politique de confidentialité</li>
+          <li>Mentions légales</li>
+          <li>Chart cookies</li>
+          <li>Gestion des cookies</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
